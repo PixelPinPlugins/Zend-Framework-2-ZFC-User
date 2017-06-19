@@ -60,7 +60,7 @@ interface UserInterface
      * Set displayName.
      *
      * @param string $displayName
-     * @return UserInterface
+     * @return string $displayName
      */
     public function setDisplayName($displayName);
 
@@ -75,7 +75,7 @@ interface UserInterface
      * Set firstName.
      *
      * @param string $firstName
-     * @return UserInterface
+     * @return string $firstName
      */
     public function setFirstName($firstName);
 
@@ -90,7 +90,7 @@ interface UserInterface
      * Set lastName.
      *
      * @param string $lastName
-     * @return UserInterface
+     * @return string $lastName
      */
     public function setLastName($lastName);
 
@@ -105,7 +105,7 @@ interface UserInterface
      * Set nickname.
      *
      * @param string $nickname
-     * @return UserInterface
+     * @return string $nickname
      */
     public function setNickName($nickname);
 
@@ -120,7 +120,7 @@ interface UserInterface
      * Set gender.
      *
      * @param string $gender
-     * @return UserInterface
+     * @return string $gender
      */
     public function setGender($gender);
 
@@ -135,7 +135,7 @@ interface UserInterface
      * Set birthdate.
      *
      * @param string $birthdate
-     * @return UserInterface
+     * @return string $birthdate
      */
     public function setBirthdate($birthdate);
 
@@ -150,7 +150,7 @@ interface UserInterface
      * Set phoneNumber.
      *
      * @param string $phoneNumber
-     * @return UserInterface
+     * @return string $phoneNumber
      */
     public function setPhoneNumber($phoneNumber);
 
@@ -165,7 +165,7 @@ interface UserInterface
      * Set address.
      *
      * @param string $address
-     * @return UserInterface
+     * @return string $address
      */
     public function setAddress($address);
 
@@ -180,7 +180,7 @@ interface UserInterface
      * Set country.
      *
      * @param string $country
-     * @return UserInterface
+     * @return string $country
      */
     public function setCountry($country);
 
@@ -195,7 +195,7 @@ interface UserInterface
      * Set region.
      *
      * @param string $region
-     * @return UserInterface
+     * @return string $region
      */
     public function setRegion($region);
 
@@ -210,7 +210,7 @@ interface UserInterface
      * Set city.
      *
      * @param string $city
-     * @return UserInterface
+     * @return string $city
      */
     public function setCity($city);
 
@@ -225,7 +225,7 @@ interface UserInterface
      * Set zip.
      *
      * @param string $zip
-     * @return UserInterface
+     * @return string $zip
      */
     public function setZip($Zip);
 
@@ -240,7 +240,7 @@ interface UserInterface
      * Set password.
      *
      * @param string $password
-     * @return UserInterface
+     * @return string $password
      */
     public function setPassword($password);
 
@@ -255,7 +255,7 @@ interface UserInterface
      * Set state.
      *
      * @param int $state
-     * @return UserInterface
+     * @return int $state
      */
     public function setState($state);
 }

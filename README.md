@@ -18,23 +18,13 @@ modules are available (see below). ZfcUserPixelpin provides the foundations for 
 user authentication and registration to your ZF2 site. It is designed to be very
 simple and easy to extend.
 
-More information and examples are available on the [ZfcUserPixelpin Wiki](https://github.com/ZF-Commons/ZfcUserPixelpin/wiki)
-
-Storage Adapter Modules
------------------------
-
-By default, ZfcUserPixelpin ships with support for using Zend\Db for persisting users.
-However, by installing an optional alternative storage adapter module, you can
-take advantage of other methods of persisting users:
-
-- [ZfcUserPixelpinDoctrineORM](https://github.com/ZF-Commons/ZfcUserPixelpinDoctrineORM) - Doctrine2 ORM
-- [ZfcUserPixelpinDoctrineMongoODM](https://github.com/ZF-Commons/ZfcUserPixelpinDoctrineMongoODM) - Doctrine2 MongoDB ODM
+More information and examples are available on the [ZfcUser Wiki](https://github.com/ZF-Commons/ZfcUser/wiki)
 
 Requirements
 ------------
 
 * [Zend Framework 2](https://github.com/zendframework/zf2) (latest master)
-* [PixelPinZFCBase](https://github.com/PixelPinPlugins/PixelPin-ZFC-Base) (latest master).
+* [PixelPin-ZFC-Base](https://github.com/PixelPinPlugins/PixelPin-ZFC-Base) (latest master).
 
 Features / Goals
 ----------------
