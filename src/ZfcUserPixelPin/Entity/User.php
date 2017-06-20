@@ -103,7 +103,7 @@ class User implements UserInterface
      * Set id.
      *
      * @param int $id
-     * @return int $id
+     * @return UserInterface
      */
     public function setId($id)
     {
@@ -125,7 +125,7 @@ class User implements UserInterface
      * Set username.
      *
      * @param string $username
-     * @return string $username
+     * @return UserInterface
      */
     public function setUsername($username)
     {
@@ -147,7 +147,7 @@ class User implements UserInterface
      * Set email.
      *
      * @param string $email
-     * @return string $email
+     * @return UserInterface
      */
     public function setEmail($email)
     {
@@ -169,7 +169,7 @@ class User implements UserInterface
      * Set displayName.
      *
      * @param string $displayName
-     * @return string $displayName
+     * @return UserInterface
      */
     public function setDisplayName($displayName)
     {
@@ -191,7 +191,7 @@ class User implements UserInterface
      * Set lastName.
      *
      * @param string $lastName
-     * @return string $lastName
+     * @return UserInterface
      */
     public function setLastName($lastName)
     {
@@ -213,7 +213,7 @@ class User implements UserInterface
      * Set firstName.
      *
      * @param string $firstName
-     * @return string $firstName
+     * @return UserInterface
      */
     public function setFirstName($firstName)
     {
@@ -235,7 +235,7 @@ class User implements UserInterface
      * Set nickname.
      *
      * @param string $nickname
-     * @return string $nickname
+     * @return UserInterface
      */
     public function setNickName($nickname)
     {
@@ -257,7 +257,7 @@ class User implements UserInterface
      * Set gender.
      *
      * @param string $gender
-     * @return string $gender
+     * @return UserInterface
      */
     public function setGender($gender)
     {
@@ -279,7 +279,7 @@ class User implements UserInterface
      * Set birthdate.
      *
      * @param string $birthdate
-     * @return string $birthdate
+     * @return UserInterface
      */
     public function setBirthdate($birthdate)
     {
@@ -301,7 +301,7 @@ class User implements UserInterface
      * Set phoneNumber.
      *
      * @param string $phoneNumber
-     * @return string $phoneNumber
+     * @return UserInterface
      */
     public function setPhoneNumber($phoneNumber)
     {
@@ -323,7 +323,7 @@ class User implements UserInterface
      * Set address.
      *
      * @param string $address
-     * @return string $address
+     * @return UserInterface
      */
     public function setAddress($address)
     {
@@ -345,7 +345,7 @@ class User implements UserInterface
      * Set country.
      *
      * @param string $country
-     * @return string $country
+     * @return UserInterface
      */
     public function setCountry($country)
     {
@@ -367,7 +367,7 @@ class User implements UserInterface
      * Set region.
      *
      * @param string $region
-     * @return string $region
+     * @return UserInterface
      */
     public function setRegion($region)
     {
@@ -389,7 +389,7 @@ class User implements UserInterface
      * Set city.
      *
      * @param string $city
-     * @return string $city
+     * @return UserInterface
      */
     public function setCity($city)
     {
@@ -411,7 +411,7 @@ class User implements UserInterface
      * Set zip.
      *
      * @param string $zip
-     * @return string $zip
+     * @return UserInterface
      */
     public function setZip($zip)
     {
@@ -433,7 +433,7 @@ class User implements UserInterface
      * Set password.
      *
      * @param string $password
-     * @return string $password
+     * @return UserInterface
      */
     public function setPassword($password)
     {
@@ -455,7 +455,7 @@ class User implements UserInterface
      * Set state.
      *
      * @param int $state
-     * @return int $state
+     * @return UserInterface
      */
     public function setState($state)
     {
